@@ -11,7 +11,7 @@ while True :
     computer = random.choice(choices)
     player = ""
     while player not in choices:
-        player = input("rock , paper or scissors? : ").lower()
+        player = input("Enter a choice (rock , paper , scissors) : ").lower()
 
     if player == computer :
         print(f"Player : {player}")
@@ -63,4 +63,4 @@ while True :
 
     if play_again != "yes" :
         break
-print("Bye! ^.^")
+print("Thanks for Playing ! \n Bye ^.^")
